@@ -19,6 +19,6 @@ def count_words():
             count[word] += 1
         else:
             count[word] = 1
-    print(count)
+    return print(count)
 
 count_words()
